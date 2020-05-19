@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+ 
+ int main(){
+ 	
+ 	int i=2;
+ 	printf("imprimindo os numeros de 1 a 100\n");
+ 	
+ 	
+ 	while (i<=100){
+ 		printf("%i\n", i);
+ 		i=i+2;
+	}
+ 	
+ }
