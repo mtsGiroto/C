@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <conio.h>
+ int main (){
+ 	
+ 	int idade, cont=1, somaid=0;
+ 	float media;
+	 
+	 
+	 printf("Digite as idades:\n");
+ 	
+ 	while (cont<=10){
+ 		scanf("%i", &idade);
+ 		
+ 		somaid=somaid+idade;
+ 		cont=cont+1;
+ 	
+ 		media=somaid/10;
+ 		 }
+ 		
+ 		printf("A media e %f", media);
+ 	
+ 	
+ 	getch();
+ }
