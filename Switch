@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <conio.h>
+
+ int main (){
+ 	
+ 	int codigo;
+	 
+	 printf("Digite o codigo do produto:");
+ 	scanf("%i", &codigo);
+ 	
+ 	switch(codigo){
+ 		case 1:
+ 			printf("Leite");
+ 		break;	
+ 	    case 2:
+ 	    	printf("Pao");
+ 	    break;
+		case 3:
+		    printf("Batata");
+	    break;
+		case 4:
+		    printf("Mamao");
+		break;
+		
+		default:
+		    printf("Opção Invalida");		
+	 }
+	 getch();
+ }
