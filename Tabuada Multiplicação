@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+  int main(){
+  	int cont=1,tab,res;
+  	
+  	printf("Digite a tabuada desejada: ");
+  	scanf("%i", &tab);
+  	
+  	   while (cont<=10){
+  	   	res=tab*cont;
+  	   
+		 	//%i variaveis depois declarar quais sao as variaveis
+  	   	printf("%ix%i=%i\n",tab,cont,res);
+		cont=cont+1;
+		 }
+  	
+  	
+	 }
