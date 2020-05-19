@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+ int main () {
+    
+	 char nome [100];
+	 int horas, horast, salario;
+	 
+	 printf ("Seu nome:");
+	 scanf("%s", &nome);
+	 
+	 printf ("Horas trabalhadas:");
+	 scanf ("%f", &horas);
+	 salario = horas*horast;
+	 
+	 printf("Valor da hora:");
+	 scanf ("%f", &horast);
+	 
+	 printf("Seu nome e: %s\n", nome);
+	 
+	 printf("Seu salario e %i", &salario);
+	 
+	 
+ 
+ 
+ }
