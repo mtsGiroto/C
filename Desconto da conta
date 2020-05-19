@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+ int main (){
+ 	
+   float conta, desconto;
+    
+	printf("Dite o valor da conta:");
+ 	scanf("%f" ,&conta);
+ 	
+ 	if (conta>=250){
+ 	conta=conta*0.93;
+	 //porcentagem % 0.07//
+	 	//desconto =0.07*conta;
+	 	//conta=conta-desconto;
+		  }
+ 	
+    printf("Valor a ser pago: R$  %.2f", conta);
+	                             //.2 numero de casas
+	}
